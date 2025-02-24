@@ -1,0 +1,123 @@
+.p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.thumbnail-row {
+    position: relative;
+   
+}
+   .thumbnails {
+       width: 300px;
+       display: inline-block;
+    
+   }
+   .search-bar {
+       font-size: 10px;
+    
+       display: block;
+   }
+   .video-title {
+       width: 250px;
+       display: inline-block;
+       vertical-align: 50px;
+       margin-bottom: 0%;
+      margin-top: 0%;
+       
+   } 
+   .video-preview {
+      width: 300px;
+       display: inline-block;
+       vertical-align: top;
+       margin-top: 0%;
+       margin-bottom: 0%;
+       
+   }
+   .video-channel {
+       width: 30px;
+     
+       border-radius: 100px;
+       display: inline-block;
+       vertical-align: top;
+       background-color: red;
+   }
+   .video-profile {
+       width: 30px;
+      display: inline-block;
+       border-radius: 100px;
+     
+       vertical-align: top;
+      
+   }
+   .video-info {
+       display: inline-block;
+       vertical-align: top;
+      
+       width: 250px;
+   }
+   .thumbnail-row {
+         
+          display: inline-block;
+
+   }
+
+   .video-author {
+       display: inline-block;
+       vertical-align: top;
+       margin-top: 0%;
+       margin-bottom: 0%;
+   }
+
+   .video-status {
+       display: inline-block;
+       vertical-align: top;
+       margin-top: 0%;
+       margin-bottom: 0%;
+
+     
+   }
+
+   .video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+    
+   }
+   @media (max-width: 750px){
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media (min-width: 751px) and (max-width: 999px){
+        .video-grid {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+    @media (min-width: 1000px){
+        .video-grid {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+    }
+
+   }
+   .thumbnail-3 {
+    width: 300px;
+       display: inline-block;
+       vertical-align: top;
+       margin-top: 0%;
+       margin-bottom: 0%;
+
+   }
+
+   .video-time {
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 4px 7px 10px 1px;
+    margin: 0px 50px 60px 10px;
+   
+   
+   }

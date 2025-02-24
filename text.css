@@ -1,0 +1,82 @@
+
+    .video-title {
+        font-size: 20px;
+        font-family: Arial, sans-serif; 
+        font-weight: bold;         
+        font-style: italic;
+        color: black;
+        width: 350px;
+        line-height: 24px;
+        margin-bottom: 0;
+      
+        cursor: pointer;
+
+     
+      
+    }
+
+    .video-status{
+        font-size: 14px;
+        font-family: Arial, sans-serif; 
+        font-weight: bold;         
+        font-style: italic;
+        color: gray;
+        width: 350px;
+        line-height: 24px;
+        margin-bottom: 0; 
+        cursor: pointer;
+
+    }
+
+    .video-author{
+        font-size: 14px;
+        font-family: Arial, sans-serif; 
+        font-weight: bold;         
+        font-style: italic;
+        color: gray;
+        width: 350px;
+        line-height: 24px;
+        margin-bottom: 30px; 
+        cursor: pointer;
+
+    }
+
+    .video-description{
+        font-size: 14px;
+        font-family: Arial, sans-serif; 
+        font-weight: bold;         
+        font-style: italic;
+        color: gray;
+        width: 300px;
+        line-height: 24px;
+        margin-top: 0;
+        margin-bottom: 60px; 
+        cursor: pointer;
+
+
+
+    }
+
+    .button{
+        background-color: rgb(255, 65, 157);
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        
+       
+    }
+    .tech-link{
+        cursor: pointer;
+        color: rgb(21, 238, 238);
+    }
+
+    
+    .tech-link:hover{
+        text-decoration: underline;
+
+    }
+
+

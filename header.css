@@ -1,0 +1,153 @@
+.header {
+    height: 55px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+   position: fixed;
+   background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   z-index: 100;
+
+    }
+
+
+.search-bar {
+    height: 30px;
+    font-size: 70px;
+    padding-left: 10px;
+border-width: 1px;
+border-color: azure;
+ border-radius: 2px;
+ border-style: solid ;
+ border: 1px azure 2px solid;
+ box-shadow: inset 1px 2px 3px
+ rgba (0, 0, 0, 0.05);
+
+}
+.search-bar::placeholder {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5px;
+}
+
+.left-section {
+   
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+.middle-section {
+   
+   display: flex;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+   align-items: center;
+
+   
+   
+    
+}
+.right-section {
+    
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.humberger-menu {
+    height: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.youtube-logo {
+    height: 20px;
+}
+.search-button {
+    width: 40px;
+    height: 30px;
+    border: none;
+ position: relative;
+   
+   
+}
+.search-button,
+.voice-button,
+.upload-icon-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+.search-button .tool-kit,
+.voice-button .tool-kit,
+.upload-icon-container .tool-kit {
+   background-color:grey;
+   color: white;
+   position: absolute;
+   opacity: 0;
+   padding-top: 4px;
+   padding-bottom: 4px;
+   padding-left: 8px;
+   padding-right: 8px;
+   bottom: -20px;
+   pointer-events: none;
+   transition: opacity 0.15s;
+   white-space: nowrap;;
+}
+.search-button:hover .tool-kit,
+.voice-button:hover .tool-kit,
+ .upload-icon-container:hover .tool-kit{
+    opacity: 1;
+   
+
+}
+
+.search-icon {
+    margin-top: 2px;
+    
+}
+.voice-button {
+width: 40px;
+height: 30px;
+margin-left: 10px;
+border-radius: 30px;
+border: none;
+}
+
+.voice-search-icon {
+    height: 24px;
+    margin: 2px;
+}
+.upload-icon {
+  width: 30px;  
+
+}
+.youtube-apps {
+    width: 30px; 
+}
+.notifications {
+    width: 30px;
+} 
+
+.notifications-icons-container {
+position:relative;
+
+}
+.notifications-count {
+ 
+    position: absolute;
+    top: 0;
+  right: 0;
+    background-color: red;
+    color: white;
+   
+ 
+}
+.my-channel {
+    width: 30px; 
+    border-radius: 15px;
+}
